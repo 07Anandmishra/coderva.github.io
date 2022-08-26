@@ -1,0 +1,204 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* font-family: 'Barlow', sans-serif; */
+    font-family: 'Kanit', sans-serif;
+    /* font-family: 'Nanum Gothic', sans-serif; */
+    /* font-family: 'Prompt', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif; */
+    -webkit-box-sizing: border-box;
+}
+.navbar{
+    padding: 0px 0px!important;
+    background-color: #3D65A1!important;
+}
+@media only screen and (max-width: 600px) {
+    .navbar{
+        padding: 0px 10px!important;
+    }
+} 
+
+@media screen and (max-width:600px) {
+    .navbar-toggler{
+        background-color: #fff!important;
+    }
+}
+
+.navbar ul  .active a{
+    background-color: rgb(255, 255, 255)!important;
+    color: black!important;
+}
+.navbar-nav li a{
+    padding: 8px 20px!important;
+    margin: 0px 15px;
+    font-size: 18px;
+    color: #fff!important;
+    border-radius: 2px !important;
+}
+@media screen and (max-width:600px) {
+    .navbar li a{
+        margin: 0px 0px!important;
+    }
+}
+.nav-link{
+    position: relative;
+}
+.nav-link::after{
+    content: '';
+    position: absolute;
+    background-color: #fff;
+    height: 2px;
+    width: 0;
+    left: 0px;
+    bottom: -6px;
+    transition: .3s;
+}
+.nav-link:hover::after{
+    width: 100%;
+}
+@media screen and (max-width:600px) {
+    .nav-link:hover::after{
+        width: 30%;
+    } 
+}
+.hero{
+    margin-top: 90px;
+    background-image: linear-gradient(to top, #131314ba, #262627cc), url(../images/background1.jpg);
+    background-color: black;
+    height: 500px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat; 
+}
+.main_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    flex-direction: column;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    
+}
+.btn1{
+    padding: 17px 30px;
+    background-color: rgb(248, 225, 194);
+    border: none!important;
+    border-radius: 5px;
+    text-decoration: none!important;
+    color: #000;
+}
+@media screen and (max-width:600px){
+    .btn1,.btn2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+        padding:10px 14px!important
+    }
+}
+.btn1:hover{
+    background-color: #fff;
+    color: black;
+}
+
+.btn2{
+    padding: 16px 30px;
+    background-color: transparent;
+    border: 1px solid #fff!important;
+    border-radius: 5px; 
+    color: #fff;
+}
+.btn2:hover{
+    background-color: rgb(248, 225, 194);
+    color: black; 
+}
+.content h1{
+    padding: 5px 0px;
+    letter-spacing: 0.2rem;
+}
+ .content p{
+    padding-bottom: 10px;
+    color: #d3cfcf;
+    font-size: 1.1rem;
+}
+
+.second_container{
+    background-color: #efefef;
+    padding: 70px 0px;
+}
+.leftdiv img{
+    width: 100%;
+}
+.content2 h1{
+    font-size: 45px;
+    padding: 10px 0px;
+}
+.card{
+    margin: 20px 0px;
+    border: none!important;
+    border-radius: 5px!important;
+}
+.cardicon .fas{
+    color: #ff8484;
+    padding: 20px 0px;
+    font-size: 30px;
+}
+.text1{
+    color: #8b7b7b;
+    padding: 10px 0px;
+}
+.third_container{
+    padding: 70px 0px;
+}
+.third_container p{
+    color: #777777;
+    padding: 10px 0px;
+}
+.goalcard1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.goalcard1 i{
+    background-color: #efefef;
+    border-radius: 50%;
+    padding: 20px;
+    color: rgb(17, 109, 17);
+}
+.goalcard1 h6{
+    font-size: 22px;
+    font-weight: 300!important;
+    font-family: 'Barlow', sans-serif;
+    color: #777777;
+}
+.second_container2{
+    padding: 30px 0px;
+}
+.fourth_container{
+    background-color: black;
+    padding: 70px 0px;
+}
+.content3 h1{
+    font-size: 60px;
+    padding: 10px 0px;
+}
+.careercard{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid #efefef;
+    padding: 20px;
+    border-radius: 10px;
+}
+.careercard i{
+    font-size: 22px!important;
+}
+.fifth_container{
+    padding: 70px 0px;
+}

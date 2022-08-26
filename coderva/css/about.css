@@ -1,0 +1,44 @@
+.about_container{
+    margin-top: 90px;
+    background-color: #efefee;
+    padding: 70px 0px;
+}
+.aboutimg img{
+    width: 453px;
+    height: 453px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width:600px){
+   .aboutimg img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+   } 
+}
+.phone_pic img{
+width: 165px;
+height: 165px;
+background-image: none;
+margin: -164px 37px 0 auto;
+background-color: #2590f4;
+padding: 20px;
+border-radius: 50%;
+position: relative;
+z-index: 1;
+}
+@media screen and (max-width:600px) {
+    .phone_pic img{
+        width: 110px;
+        height: 110px;
+    }
+}
+.about_content p{
+    font-size: 18px;
+    font-weight: 200!important;
+}
+.card p{
+    font-size: 22px;
+}

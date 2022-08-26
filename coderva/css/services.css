@@ -1,0 +1,27 @@
+.service_content h1{
+    color: #fff;
+    text-shadow: 2px 4px 4px #000000;
+    
+}
+.service_main_div{
+    margin-top: 90px;
+    background-image: url(../images/wood.jpg);
+    background-attachment: fixed;
+    background-size:cover ;
+    background-position: center;
+    /* background-color: gainsboro */
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)!important;
+    transition: 0.7s ease-in-out;
+    display: flex;
+}
+.card:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transform: translateY(-18px);
+    -ms-transform: translateY(-18px);
+    -webkit-transform: translateY(-18px);
+}
+.service_main_div img{
+    height: 200px;
+}
